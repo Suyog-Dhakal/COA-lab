@@ -35,7 +35,7 @@
     disp("negative");
     product = TwosComplement(product);
    endif
-   
+   disp("product: "),disp(product);
    
  endfunction
  
