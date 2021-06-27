@@ -30,6 +30,12 @@
    endfor
    
    product = [ac asrmpc];
+   qn = product(1);
+   if(qn)
+    disp("negative");
+    product = TwosComplement(product);
+   endif
+   
    
  endfunction
  
